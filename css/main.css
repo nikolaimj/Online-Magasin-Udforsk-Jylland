@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Bebas Neue';
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: transparent;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 12vh;
+    z-index: 999;
+    width: 90%;
+    position: absolute;
+}
+
+.logomenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+}
+
+.logo-box {
+    width: 10%;
+}
+
+.links {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+ 
+
+.nav-links li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+.nav-links {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.cta-button {
+    background-color: #CD7700;
+    border: 0;
+    font-family: 'Bebas Neue'; 
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    filter:brightness(80%)
+}
+
+.landing-text {
+    left: 0;
+    line-height: 150px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    color: white;
+    font-size: 250%;
+    letter-spacing: 5px;
+}
+
+.tilbud-header {
+    text-align: center;
+    font-size: 250%;
+}
+
+.tilbud-header p {
+    font-size: 80%;
+    font-family: 'Abel';
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 100px;
+  }
+
+  .column h3 {
+      text-align: center;
+  }
+
+  .column button {
+      background-color: #89A25B;
+      border: 0;
+    font-family: 'Bebas Neue'; 
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 18px;
+    font-size: 30px;
+  }
+
+  .nyheder .wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #89A25B;
+    padding-bottom: 20%;
+}
+
+
+
+.news-header {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    font-size: 250%;
+    color: white;
+}
+
+.artikler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    color: white;
+    font-size: 150%;
+}
+
+.nyheder button {
+    border: 2px solid white;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 60px;
+  font-family: 'Bebas neue';
+  font-size: 30px;
+  
+}
+
+.nyheder button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 150%;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #CD7700;
+    color: white;
+    border: none;
+    font-family: 'Bebas neue';
+    font-size: 100%;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  .test {
+      width: 300px;
+      height: 333px;
+      object-fit: cover;
+  }
+
+  .items {
+      text-align: center;
+  }
+

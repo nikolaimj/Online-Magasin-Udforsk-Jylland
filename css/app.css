@@ -1,0 +1,116 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 12vh;
+    z-index: 999;
+    width: 90%;
+    position: absolute;
+}
+
+.logomenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+}
+
+.logo-box {
+    width: 10%;
+}
+
+.links {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.nav-links li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.nav-links {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.cta-button {
+    background-color: #CD7700;
+    border: 0;
+    font-family: 'Bebas Neue'; 
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+}
+
+.billede img {
+    height: auto;
+    width: 100%;
+}
+
+.hentappen {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header h1 {
+    font-size: 250%;
+    text-align: center;
+}
+
+.mobil img {
+    width: 300px;
+    height: 380px;
+}
+
+.appstore {
+    width: 150px;
+    padding-left: 20%;
+    position: absolute;
+    top: 700px;
+    left: 30px;
+    bottom: 30px;
+}
+
+.googleplay {
+    width: 150px;
+    padding-left: 20%;
+    position: absolute;
+    top: 750px;
+    left: 30px;
+}
+
